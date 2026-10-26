@@ -4,14 +4,9 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("=== Şanslı Sayı Üretici ===");
-        
         Random rnd = new Random();
-        int sansliSayi = rnd.Next(1, 100); // 1 ile 99 arasında rastgele sayı
-
-        Console.WriteLine($"Şanslı sayınız: {sansliSayi}");
-        
-        Console.WriteLine("\nÇıkmak için bir tuşa basın...");
+        int luckyNumber = rnd.Next(1, 100); 
+        Console.WriteLine($"you luck number {luckyNumber}");
         Console.ReadKey();
     }
 }
